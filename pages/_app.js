@@ -3,6 +3,7 @@ import Head from 'next/head';
 import { CartProvider } from '@/hooks/use-shopping-cart';
 import { Header, Footer } from '@/components/index';
 import { Toaster } from 'react-hot-toast';
+import '../styles/global.css'
 
 function MyApp({ Component, pageProps }) {
   return (
